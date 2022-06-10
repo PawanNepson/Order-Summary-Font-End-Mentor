@@ -1,0 +1,56 @@
+.box {
+  background-image: url(./images/pattern-background-desktop.svg);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+#img1 {
+  border-radius: 0.4375rem 0.4375rem 0 0;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4.6875rem;
+  width: 28rem;
+  height: 36rem;
+  border-radius: 0.5rem;
+  background-color: #f8f9fe;
+  border-radius: 0.5rem;
+}
+#titleinfo {
+  width: 80%;
+  color: #878b96;
+}
+.plan {
+  background-color: #edeffc;
+  border-radius: 0.5rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+.payment {
+  background-color: #382ae1;
+  width: 80%;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 5px 10px 10px #ddd9fa;
+  margin-top: 1rem;
+}
+.payment:hover {
+  background-color: #5043de;
+}
+
+#change:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cancel {
+  width: 80%;
+  text-align: center;
+  margin-top: 1rem;
+}

@@ -1,3 +1,13 @@
+/* :root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --blue: hsl(225, 100%, 96%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --medium-grey: hsl(216, 12%, 54%);
+} */
+
 .box {
   background-image: url(./images/pattern-background-desktop.svg);
   display: flex;
@@ -22,10 +32,10 @@
 }
 #titleinfo {
   width: 80%;
-  color: #878b96;
+  color: hsl(224, 23%, 55%);
 }
 .plan {
-  background-color: #edeffc;
+  background-color: hsl(225, 100%, 96%);
   border-radius: 0.5rem;
   width: 80%;
   display: flex;
@@ -42,7 +52,7 @@
   margin-top: 1rem;
 }
 .payment:hover {
-  background-color: #5043de;
+  background-color: #7268e6;
 }
 
 #change:hover {
@@ -53,4 +63,7 @@
   width: 80%;
   text-align: center;
   margin-top: 1rem;
+}
+.cancel:hover {
+  text-decoration: underline;
 }
